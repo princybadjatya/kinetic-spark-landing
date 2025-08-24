@@ -54,19 +54,19 @@ const Footer = () => {
               <div className="p-2 bg-gradient-primary rounded-xl shadow-glow">
                 <IconRocket className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold gradient-text">KineticSpark</span>
+              <span className="text-xl font-bold gradient-text">RefineAI</span>
             </div>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Building the future of digital experiences through innovative technology 
-              and human-centered design. Join us in creating solutions that matter.
+              Transforming product development with Multi-Agent AI. 
+              Turning ideas into clear, actionable requirements for faster execution.
             </p>
 
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-muted-foreground">
                 <IconMail className="w-4 h-4 text-accent" />
-                <span>hello@kineticspark.com</span>
+                <span>hello@refineai.dev</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-muted-foreground">
                 <IconPhone className="w-4 h-4 text-accent" />
@@ -158,9 +158,9 @@ const Footer = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <span>© 2024 KineticSpark. Made with</span>
+              <span>© 2024 RefineAI. Built with passion at AI Hackathon.</span>
               <IconHeart className="w-4 h-4 text-red-500 animate-pulse" />
-              <span>in San Francisco</span>
+              <span>Empowering innovation through AI collaboration.</span>
             </motion.div>
 
             {/* Social Links */}

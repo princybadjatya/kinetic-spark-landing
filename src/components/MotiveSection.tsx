@@ -13,23 +13,23 @@ const MotiveSection = () => {
   const motives = [
     {
       icon: IconHeart,
-      title: "Passion for Excellence",
-      description: "We believe that great products are born from genuine passion and dedication to perfection."
+      title: "Problem-Solving Focus",
+      description: "We tackle the real pain point of unclear requirements that plague product development teams."
     },
     {
       icon: IconWorld,
-      title: "Global Impact",
-      description: "Our vision extends beyond borders, aiming to create solutions that benefit communities worldwide."
+      title: "Team Alignment",
+      description: "Ensuring all stakeholders share the same understanding and vision for product success."
     },
     {
       icon: IconShield,
-      title: "Trust & Reliability",
-      description: "Building lasting relationships through transparent communication and dependable solutions."
+      title: "Quality Assurance",
+      description: "AI-powered validation ensures requirements meet industry standards and best practices."
     },
     {
       icon: IconRocket,
-      title: "Future Innovation",
-      description: "Constantly pushing the boundaries of what's possible with emerging technologies."
+      title: "Speed to Market",
+      description: "Accelerating product development by eliminating requirement ambiguities upfront."
     }
   ];
 
@@ -109,9 +109,7 @@ const MotiveSection = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Why we built this? Because we believe in the transformative power of technology 
-            when it's applied with purpose, passion, and a genuine desire to make a difference 
-            in people's lives.
+            We believe product innovation shouldn't be slowed down by unclear communication. By combining the power of multiple AI agents, our solution reduces friction in requirement gathering, ensures alignment across stakeholders, and speeds up product development. Our mission is to bridge the gap between ideas and execution.
           </motion.p>
 
           {/* Hero Quote */}
@@ -121,9 +119,9 @@ const MotiveSection = () => {
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            <span className="gradient-text">"Innovation isn't just about technology—</span>
+            <span className="gradient-text">"Clear requirements are the foundation of great products—</span>
             <br />
-            it's about creating meaningful connections and empowering human potential."
+            we're making that foundation stronger with AI collaboration."
           </motion.blockquote>
         </motion.div>
 

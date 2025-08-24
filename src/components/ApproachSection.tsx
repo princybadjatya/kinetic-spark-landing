@@ -21,30 +21,23 @@ const ApproachSection = () => {
     {
       icon: IconBulb,
       step: "01",
-      title: "Ideation & Strategy",
-      description: "We start by understanding your vision and challenges, then craft a strategic roadmap that aligns with your business goals.",
-      highlights: ["Market Research", "User Journey Mapping", "Technical Architecture", "Timeline Planning"]
+      title: "Requirement Extraction",
+      description: "The AI parses initial inputs and identifies gaps, ambiguities, and missing details in your product concept.",
+      highlights: ["Input Analysis", "Gap Detection", "Ambiguity Identification", "Detail Extraction"]
     },
     {
       icon: IconCode,
       step: "02", 
-      title: "Development & Design",
-      description: "Our expert team brings your vision to life using cutting-edge technologies and human-centered design principles.",
-      highlights: ["Modern Tech Stack", "Responsive Design", "Performance Optimization", "Security First"]
+      title: "Agent Collaboration",
+      description: "Specialized AI agents (PM, Engineer, QA, Customer) debate, refine, and enhance requirements from all perspectives.",
+      highlights: ["Multi-Agent Discussion", "Role-Based Analysis", "Perspective Integration", "Requirement Refinement"]
     },
     {
       icon: IconTestPipe,
       step: "03",
-      title: "Testing & Refinement",
-      description: "Rigorous testing ensures every feature works perfectly. We iterate based on feedback to deliver excellence.",
-      highlights: ["Quality Assurance", "User Testing", "Performance Monitoring", "Continuous Improvement"]
-    },
-    {
-      icon: IconLaunch,
-      step: "04",
-      title: "Launch & Support",
-      description: "We ensure a smooth launch and provide ongoing support to help your product succeed and scale.",
-      highlights: ["Deployment Strategy", "Monitoring Setup", "Team Training", "Ongoing Maintenance"]
+      title: "Final Refinement",
+      description: "The platform generates a polished, actionable requirements document ready for development and implementation.",
+      highlights: ["Document Generation", "Quality Validation", "Actionable Output", "Development Ready"]
     }
   ];
 
@@ -143,8 +136,8 @@ const ApproachSection = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            We follow a proven methodology that ensures every project delivers exceptional results. 
-            Our approach combines innovation with reliability to create lasting value.
+            Our AI-powered approach transforms vague ideas into crystal-clear product requirements. 
+            Through multi-agent collaboration, we ensure nothing is missed and everything is aligned.
           </motion.p>
         </motion.div>
 
@@ -222,17 +215,17 @@ const ApproachSection = () => {
         >
           <div className="glass-card p-8 max-w-2xl mx-auto gradient-border glow-primary">
             <h3 className="text-2xl font-semibold mb-4 gradient-text">
-              Ready to Start Your Project?
+              Ready to Refine Your Requirements?
             </h3>
             <p className="text-muted-foreground mb-6">
-              Let's discuss how our proven approach can bring your vision to life.
+              Transform your product ideas into clear, actionable requirements with our Multi-Agent AI platform.
             </p>
             <motion.button
               className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-primary text-primary-foreground rounded-lg shadow-glow hover:shadow-accent transition-all duration-300 transform hover:scale-105 group"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Start Your Journey
+              Try RefineAI Now
               <IconArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>
           </div>

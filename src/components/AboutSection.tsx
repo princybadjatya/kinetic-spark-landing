@@ -13,23 +13,23 @@ const AboutSection = () => {
   const features = [
     {
       icon: IconTarget,
-      title: "Precision Focus",
-      description: "We target exactly what matters most for your business success and growth trajectory."
-    },
-    {
-      icon: IconBulb,
-      title: "Innovation First",
-      description: "Cutting-edge solutions that push boundaries and redefine industry standards."
+      title: "Precision Requirements",
+      description: "AI agents identify gaps, ambiguities, and missing details in your initial product concepts."
     },
     {
       icon: IconUsers,
-      title: "User-Centric",
-      description: "Every decision is made with your users' experience and satisfaction in mind."
+      title: "Multi-Agent Collaboration",
+      description: "Specialized AI agents simulate different roles to debate and refine requirements from all perspectives."
+    },
+    {
+      icon: IconBulb,
+      title: "Intelligent Validation",
+      description: "Automated validation ensures requirements are actionable, testable, and development-ready."
     },
     {
       icon: IconTrendingUp,
-      title: "Scalable Growth",
-      description: "Built to grow with you, adapting to your evolving needs and market demands."
+      title: "Continuous Refinement",
+      description: "Iterative improvement process that evolves requirements based on stakeholder feedback."
     }
   ];
 
@@ -104,9 +104,7 @@ const AboutSection = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            We're building the next generation of digital experiences that transform how businesses 
-            connect with their customers. Our innovative approach combines cutting-edge technology 
-            with human-centered design to create solutions that truly matter.
+            Every great product begins with clear requirements. Yet, most teams struggle with ambiguity, misalignment, and missed details. Our Multi-Agent AI platform tackles this challenge by simulating diverse roles—like product manager, developer, tester, and customer advocate—to collaboratively refine and perfect requirements. The result: precise, actionable, and well-structured product documentation.
           </motion.p>
         </motion.div>
 
@@ -118,10 +116,10 @@ const AboutSection = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           {[
-            { number: 150, label: "Projects Delivered", suffix: "+" },
-            { number: 98, label: "Client Satisfaction", suffix: "%" },
-            { number: 50, label: "Team Members", suffix: "+" },
-            { number: 24, label: "Countries Served", suffix: "/" }
+            { number: 95, label: "Accuracy Rate", suffix: "%" },
+            { number: 4, label: "AI Agents", suffix: "" },
+            { number: 60, label: "Time Saved", suffix: "%" },
+            { number: 100, label: "Requirements Refined", suffix: "+" }
           ].map((stat, index) => (
             <motion.div
               key={index}

@@ -84,9 +84,9 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            <span className="gradient-text">Revolutionary</span>
+            Turning Ideas into Clear <span className="gradient-text">Product Requirements</span>
             <br />
-            Product Experience
+            with Multi-Agent AI
           </motion.h1>
 
           {/* Subtext */}
@@ -96,8 +96,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Transform your business with cutting-edge technology and innovative solutions. 
-            Experience the future of digital excellence today.
+            Our platform leverages collaborative AI agents to refine, validate, and optimize product requirements—helping teams move from vision to execution faster.
           </motion.p>
 
           {/* CTA Buttons */}

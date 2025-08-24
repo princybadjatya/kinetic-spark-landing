@@ -45,7 +45,7 @@ const Header = () => {
             <div className="p-2 bg-gradient-primary rounded-xl shadow-glow">
               <IconRocket className="w-6 h-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold gradient-text">KineticSpark</span>
+            <span className="text-xl font-bold gradient-text">RefineAI</span>
           </motion.div>
 
           {/* Desktop Navigation */}
